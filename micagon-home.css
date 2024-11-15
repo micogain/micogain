@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+body{
+  margin:0;
+  background:white;
+  font-family:Ubuntu Sans;
+}
+.header {
+  border-bottom:1px solid gray;
+  height:50px;
+  padding:20px;
+}
+.header .logo {
+  height:50px;
+  width:50px;
+  border:3px solid white;
+  float:left;
+  margin-right:20px;
+  border-radius:9px;
+  box-shadow:5px 2px 12px black;
+  background:linear-gradient(330deg,black,gray,#c3c3c3)
+}
+.header .header-text a{
+  float:left;
+  text-decoration:none;
+  color:black;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:6px;
+}
+.header .camera1{
+  height:20px;
+  width:20px;
+  background-color:green;
+  float:right;
+  border-radius:50%;
+  margin-left:10px;
+  margin-top:10px;
+  box-shadow:2px 3px 19px green;
+}
+.header .camera2{
+  height:20px;
+  width:20px;
+  background-color:orange;
+  float:right;
+  border-radius:50%;
+  margin-left:10px;
+  margin-top:10px;
+  box-shadow:2px 3px 19px orange;
+}
+.header .camera3{
+  height:20px;
+  width:20px;
+  background-color:red;
+  float:right;
+  border-radius:50%;
+  margin-left:10px;
+  margin-top:10px;
+  box-shadow:2px 3px 19px red;
+}
+.topnav {
+  margin:0;
+  padding:0px;
+  border-bottom:1px solid gray;
+  height:54px;
+  
+}
+.topnav1 {
+  float:left;
+  display:block;
+  padding-bottom:17px;
+  padding-top:18px;
+}
+.topnav1 a{
+  text-decoration:none;
+  padding:17.4px;
+  text-align:center;
+  color:black;
+  margin-top:15px;
+  
+}
+.topnav1 a:hover{
+  background:black;
+  color:white;
+}
+.topnav .account {
+  float:right;
+  padding-bottom:16px;
+  padding-top:17px;
+  margin-right:10px;
+  width:120px;
+}
+.topnav .account a{
+  padding-bottom:18px;
+  padding-top:17px;
+  padding-left:17px;
+  padding-right:13.9px;
+  text-decoration:none;
+  color:black;
+}
+.topnav .account a:hover{
+  background:black;
+  color:white;
+}
+.main{
+  height:800px;
+  width:100%;
+  border:1px solid gray;
+  padding-top:90px;
+}
+.main1{
+  height:400px;
+  width:1100px;
+  border:1px solid gray;
+  margin:auto;
+  border-radius:3px;
+  padding:7%;
+  font-size:25px;
+  font-weight:100
+}
+.main1 button{
+  border:1px solid black;
+  background:white;
+  padding:20px;
+  margin-top:90px;
+  margin-left:35%;
+  border-radius:6px
+}
+.main1 a{
+  text-decoration:none;
+  color:gray;
+  font-size:35px;
+  font-family:ubuntu Sans;
+  
+}
+
+footer{
+  border:1px solid ;
+  height:500px;
+  background:gray
+}
